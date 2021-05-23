@@ -19,7 +19,8 @@ deploy:
     provider: heroku
     skip-cleanup: true
     keep-history: true
-    api-key: a3714032-4f9e-4ef6-8b96-ce1cc23272fe
+    api-key:
+        secure: 'X9mGLlozE6p3OEwFzE2FiFsQzdd5ShayBfHmZsHLpWTvHwFkxqU8KEqzOstijcSMCLr7csxrKEY/YiVmyYZ/NX2jarGW+/s/1ru1tsK7XJUpVfZbVyCnhYqSWjt6JqXNZg26B0HAmDxkQ8aICN/BI6+WxEon14OMpmS7ZbjdZe1PQwY5LSSuwI6iL30fiKPpZZNgcaL2usyXq++mRlJBgBuLAfcJGHTSl8xhJqQvcKpLaYw0M33DdD1xr8BsolU1I8e3RWhAnICIdtqSZb3JaNGUSHin2UIsb0MUYecEoAE5n77MQYeuBn6HrK8x41jFjgcDVKdXVR8eynRJhG1uf2LTTX7h+Xy5gbpLXJa9ylYe0ywT+86EoY8p+ELSC5diY93wSfIu5VlQmLgSs9Km3EhooD8tljQenUBokOX4r1JNTmTWBsIJRMRUJxQ6a4tCfz0GDyl+4KvoVP6F0E7FOo16Yae1UT+KqdH6QkzwTRdqFZaiVdj0M2wXOgWMZlGhbEzTesnZphX0R5bFjkwMeSh2rHLtC5xmKn1ro7Izlh/26qIaau10yzKBCjjfwHDBaY54XyzvSb8CrJV5pL3of+eXbLkAqdinkosAUV9gvebRb5rJnZOkL3XbX0N+3QLMR5/+7qcuyl4VnpzcYI0RkSMoZd06lL4FsaQW+zOrj0g='
     app: platzi-travis-ci
     on:
         repo: luisalbertodev/platzi-store-backend
